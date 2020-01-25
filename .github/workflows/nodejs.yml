@@ -1,23 +1,23 @@
-name: NodeCI
+name: selenium-webdriver-es6modules-esm-mocha-chai
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - name: npm install
-      run: |
-        npm ci
-      env:
-        CI: true
-    - name: npm test
-      run: |
-        npm run test
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: INSTALL
+        run: |
+          npm ci
+        env:
+          CI: true
+      - name: LINT, TEST
+        run: |
+          npm run lint
+          npm run test
