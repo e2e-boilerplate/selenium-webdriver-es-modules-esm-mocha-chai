@@ -1,7 +1,7 @@
 {
-  "name": "selenium-webdriver-es6modules-esm-mocha-chai",
+  "name": "selenium-webdriver-es-6modules-esm-mocha-chai",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, ESM, mocha and chai.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, ESM, MochaJS and Chai.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx mocha -r esm spec/sandbox.spec.js"
@@ -13,7 +13,8 @@
     "mocha",
     "chai",
     "boilerplates",
-    "example"
+    "example",
+    "e2e"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
