@@ -1,6 +1,6 @@
 # selenium-webdriver (ES6-modules, esm, MochaJS and Chai)
 
-[![GitHub Actions status | e2e-boilerplates/git@github.com:e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai](https://github.com/e2e-boilerplates/git@github.com:e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai/workflows/git@github.com:e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai/badge.svg)](https://github.com/e2e-boilerplates/git@github.com:e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai/actions?workflow=git@github.com:e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai)
+[![GitHub Actions status | e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai](https://github.com/e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai/workflows/selenium-webdriver-es6-modules-esm-mocha-chai/badge.svg)](https://github.com/e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai/actions?workflow=selenium-webdriver-es6-modules-esm-mocha-chai)
 
 selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, ESM, MochaJS and Chai.
 
