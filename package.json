@@ -1,14 +1,15 @@
 {
-  "name": "selenium-webdriver-es-6modules-esm-mocha-chai",
+  "name": "selenium-webdriver-es6-modules-esm-mocha-chai-expect",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, ESM, MochaJS and Chai.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, ESM, MochaJS, Chai and Expect",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx mocha -r esm spec/sandbox.spec.js"
+    "test": "npx mocha -r esm spec/*.spec.js"
   },
   "keywords": [
     "selenium-webdriver",
-    "ES6 modules",
+    "es6",
+    "e2e test",
     "esm",
     "mocha",
     "chai",

@@ -1,4 +1,4 @@
-name: selenium-webdriver-es6-modules-esm-mocha-chai
+name: selenium-webdriver-es6-modules-esm-mocha-chai-expect
 
 on:
   push:
