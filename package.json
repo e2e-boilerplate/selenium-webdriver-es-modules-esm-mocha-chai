@@ -1,24 +1,6 @@
 {
-  "name": "selenium-webdriver-es6-modules-esm-mocha-chai-expect",
-  "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, ESM, MochaJS, Chai and Expect",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx mocha -r esm spec/*.spec.js"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "es6",
-    "e2e test",
-    "esm",
-    "mocha",
-    "chai",
-    "boilerplates",
-    "example",
-    "e2e"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, ESM, MochaJS, Chai and Expect",
   "devDependencies": {
     "chai": "4.2.0",
     "chromedriver": "79.0.3",
@@ -26,6 +8,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "esm": "3.2.25",
     "husky": "3.0.9",
@@ -38,5 +21,30 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "esm",
+    "example",
+    "integration test",
+    "mocha",
+    "selenium",
+    "selenium-webdriver",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "name": "selenium-webdriver-es6-modules-esm-mocha-chai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx mocha -r esm spec/*.spec.js"
+  },
+  "version": "1.0.0"
 }
