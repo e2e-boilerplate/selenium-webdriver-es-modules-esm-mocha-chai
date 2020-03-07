@@ -1,28 +1,23 @@
-name: selenium-webdriver-es-modules-esm-mocha-chai-expect
-
-on:
-  push:
+name: selenium-webdriver-es-modules-esm-mocha-chai
+"on":
+  push: null
   schedule:
-    - cron: "0 0 1-31/2 * *"
-
+    - cron: 30 3 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-      - name: INSTALL
-        run: |
-          npm ci
+          node-version: 12.x
+      - run: npm install
         env:
           CI: true
-      - name: LINT
-        run: |
-          npm run lint
-      - name: TEST
-        run: |
-          npm run test
+      - name: Lint
+        run: npm run lint --if-present
+      - name: Build
+        run: npm run build --if-present
+      - name: Executing tests
+        run: npm run test
