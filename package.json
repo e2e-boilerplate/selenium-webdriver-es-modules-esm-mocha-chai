@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, ESM, MochaJS, Chai and Expect",
   "devDependencies": {
     "chai": "4.2.0",
@@ -23,14 +23,10 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
-    "e2e",
-    "e2e tests",
+    "es Modules",
     "es6",
     "esm",
-    "example",
-    "integration test",
     "mocha",
     "selenium",
     "selenium-webdriver",
