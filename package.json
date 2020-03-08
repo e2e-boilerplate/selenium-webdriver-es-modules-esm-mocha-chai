@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, ESM, MochaJS, Chai and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "selenium webdriver end-to-end test automation boilerplate.",
   "devDependencies": {
     "chai": "4.2.0",
     "chromedriver": "79.0.3",
@@ -23,19 +23,24 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
-    "es modules",
+    "e2e",
+    "e2e tests",
+    "es",
     "esm",
+    "example",
+    "integration test",
     "mocha",
     "selenium",
     "selenium-webdriver",
     "webdriver"
   ],
   "license": "MIT",
-  "name": "selenium-webdriver-es6-modules-esm-mocha-chai",
+  "name": "selenium-webdriver-es-modules-esm-mocha-chai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-es6-modules-esm-mocha-chai.git"
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
