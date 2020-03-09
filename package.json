@@ -1,9 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai/issues"
   },
-  "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using Using ES Modules, esm, Mocha and Chai.",
+  "description": "Selenium-WebDriver end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Chai.",
   "devDependencies": {
     "chai": "4.2.0",
     "chromedriver": "79.0.3",
@@ -27,13 +27,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
-    "e2e",
-    "e2e tests",
     "esm",
-    "example",
-    "integration test",
     "mocha",
     "selenium",
     "selenium-webdriver"
