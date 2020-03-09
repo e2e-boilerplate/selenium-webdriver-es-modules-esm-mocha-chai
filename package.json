@@ -1,6 +1,9 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "description": "selenium webdriver end-to-end test automation boilerplate.",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai/issues"
+  },
+  "description": "Selenium-WebDriver end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Chai.",
   "devDependencies": {
     "chai": "4.2.0",
     "chromedriver": "79.0.3",
@@ -17,6 +20,7 @@
     "pretty-quick": "2.0.1",
     "selenium-webdriver": "4.0.0-alpha.7"
   },
+  "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -27,20 +31,18 @@
     "chai",
     "e2e",
     "e2e tests",
-    "es",
     "esm",
     "example",
     "integration test",
     "mocha",
     "selenium",
-    "selenium-webdriver",
-    "webdriver"
+    "selenium-webdriver"
   ],
   "license": "MIT",
   "name": "selenium-webdriver-es-modules-esm-mocha-chai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai.git"
+    "url": "git+https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",

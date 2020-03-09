@@ -1,12 +1,12 @@
-# selenium-webdriver (ES Modules, esm, MochaJS, Chai and Expect)
+[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai/workflows/selenium-webdriver-es-modules-esm-mocha-chai/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai/actions?workflow=selenium-webdriver-es-modules-esm-mocha-chai)
 
-[![GitHub Actions status | e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai-expect](https://github.com/e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai-expect/workflows/selenium-webdriver-es-modules-esm-mocha-chai-expect/badge.svg)](https://github.com/e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai-expect/actions?workflow=selenium-webdriver-es-modules-esm-mocha-chai-expect)
+# Selenium-WebDriver Boilerplate
 
-selenium-webdriver end-to-end test automation boilerplate project. Using ES Modules, ESM, MochaJS, Chai and Expect.
+Selenium-WebDriver end-to-end test automation boilerplate, using ES Modules, esm, Mocha and Chai.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/git@github.com:e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai-expect.git
-    cd git@github.com:e2e-boilerplates/selenium-webdriver-es-modules-esm-mocha-chai-expect
-    npm install
-    npm run test
+    	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai.git
+    	2. cd selenium-webdriver-es-modules-esm-mocha-chai
+    	3. npm install
+    	4. npm run test
