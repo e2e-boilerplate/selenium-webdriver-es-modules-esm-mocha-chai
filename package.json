@@ -3,22 +3,22 @@
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai/issues"
   },
-  "dependencies": {},
-  "description": "Selenium-WebDriver end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Chai.",
-  "devDependencies": {
+  "dependencies": {
     "chai": "4.2.0",
     "chromedriver": "80.0.1",
+    "esm": "3.2.25",
+    "selenium-webdriver": "4.0.0-alpha.7"
+  },
+  "description": "Selenium-WebDriver end-to-end test automation boilerplate. using ES Modules, esm, Mocha and Chai.",
+  "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
-    "esm": "3.2.25",
-    "husky": "3.1.0",
-    "mocha": "7.1.1",
+    "husky": "4.2.3",
     "prettier": "1.19.1",
-    "pretty-quick": "2.0.1",
-    "selenium-webdriver": "4.0.0-alpha.7"
+    "pretty-quick": "2.0.1"
   },
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai#readme",
   "husky": {
