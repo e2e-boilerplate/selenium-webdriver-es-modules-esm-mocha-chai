@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, Using [ES Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), [esm](https://www.npmjs.com/package/esmjs), [Mocha](https://mochajs.org) and [Chai](https://www.chaijs.com).
+Selenium-WebDriver end-to-end test automation boilerplate, undefined
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai.git
