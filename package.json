@@ -7,7 +7,7 @@
     "chai": "4.2.0",
     "chromedriver": "81.0.0",
     "esm": "3.2.25",
-    "mocha": "7.1.2",
+    "mocha": "7.2.0",
     "selenium-webdriver": "4.0.0-alpha.7",
     "webdriver-manager": "12.1.7"
   },
