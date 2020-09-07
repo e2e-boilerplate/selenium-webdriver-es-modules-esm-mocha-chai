@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, undefined. Clone or fork this repository.
+Selenium-WebDriver end-to-end test automation boilerplate, undefined Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-es-modules-esm-mocha-chai.git
