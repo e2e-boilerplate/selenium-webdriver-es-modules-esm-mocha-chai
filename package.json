@@ -13,7 +13,7 @@
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using ES Modules, esm, Mocha and Chai.",
   "devDependencies": {
-    "eslint": "7.19.0",
+    "eslint": "7.20.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "2.22.1",
